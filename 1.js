@@ -30,6 +30,8 @@ function totalDistance(left, right) {
   //
   // const ls = findSmallest(left);
   // const rs = findSmallest(right);
+  // left.splice(ls.pos, 1);
+  // right.splice(rs.pos, 1);
 
   // return totalDistance(left, right, total + diff);
 }
