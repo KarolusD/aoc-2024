@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 
 function day1() {
-  const input = readFileSync("1.txt", "utf-8");
+  const input = readFileSync("1.input", "utf-8");
   const left = [];
   const right = [];
 
