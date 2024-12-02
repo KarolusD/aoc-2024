@@ -79,7 +79,7 @@ function day2_2_optmized() {
       if (seq.isCorrect) {
         safeReports++;
       } else {
-        const u = nums.slice(1);
+        const u = nums.slice(0, seq.idx - 1).concat(nums.slice(seq.idx));
         const s = nums.slice(0, seq.idx).concat(nums.slice(seq.idx + 1));
         const t = nums.slice(0, seq.idx + 1).concat(nums.slice(seq.idx + 2));
 
